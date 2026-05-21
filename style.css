@@ -285,3 +285,25 @@ html{
     }
 
 }
+.model-showcase{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:40px;
+}
+
+.rotating-logo{
+    width:260px;
+    animation:spin 8s linear infinite;
+    filter:drop-shadow(0 10px 20px rgba(0,0,0,0.2));
+}
+
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg);
+    }
+}
